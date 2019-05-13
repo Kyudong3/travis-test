@@ -19,4 +19,10 @@ describe('AppController', () => {
       expect(appController.getHello()).toBe('Hello World!');
     });
   });
+
+  describe('#getTest', () => {
+    it('should return "Hello Test!"', () => {
+      expect(appController.getTest()).toBe('Hello Test!');
+    });
+  });
 });
