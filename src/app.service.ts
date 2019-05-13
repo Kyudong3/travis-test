@@ -9,4 +9,8 @@ export class AppService {
   getTest(): string {
     return 'Hello Test!';
   }
+
+  getTest2(): number {
+    return 5;
+  }
 }
