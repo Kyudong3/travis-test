@@ -13,4 +13,8 @@ export class AppService {
   getTest2(): number {
     return 5;
   }
+
+  getTest3(): number {
+    return 6;
+  }
 }
