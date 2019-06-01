@@ -24,4 +24,9 @@ export class AppController {
   getTest3(): number {
     return this.appService.getTest3();
   }
+
+  @Get('/test4')
+  getTest4(): number {
+    return this.appService.getTest4();
+  }
 }

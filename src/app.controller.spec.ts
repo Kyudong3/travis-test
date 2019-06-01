@@ -34,7 +34,13 @@ describe('AppController', () => {
 
   describe('#getTest3', () => {
     it('should return 6', () => {
-      expect(appController.getTest2()).toBe(6);
+      expect(appController.getTest3()).toBe(6);
+    });
+  });
+
+  describe('#getTest4', () => {
+    it('should return 7', () => {
+      expect(appController.getTest4()).toBe(7);
     });
   });
 });
