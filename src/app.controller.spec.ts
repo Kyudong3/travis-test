@@ -22,7 +22,7 @@ describe('AppController', () => {
 
   describe('#getTest', () => {
     it('should return "Hello Test!"', () => {
-      expect(appController.getTest()).toBe('Hello Tes!');
+      expect(appController.getTest()).toBe('Hello Test!');
     });
   });
 
